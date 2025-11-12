@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos | Brilho Eterno Joias</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">💎 Brilho Eterno</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link active" href="produtos.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Catálogo -->
+  <section class="container mt-5 pt-5 text-center">
+    <h2 class="mb-4">Nossas Joias Exclusivas</h2>
+    <div class="row">
+      <!-- Anel -->
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="anel.webp" class="card-img-top" alt="anel de diamante">
+          <div class="card-body">
+            <h5 class="card-title">Anel Diamante Real</h5>
+            <p class="card-text">Ouro 18k com diamante central de 0.5ct.</p>
+            <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#anel">Detalhes</button>
+          </div>
+        </div>
+      </div>
+      <!-- Colar -->
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="colar_perola.webp" class="card-img-top" alt="colar de pérolas">
+          <div class="card-body">
+            <h5 class="card-title">Colar Pérola do Mar</h5>
+            <p class="card-text">Design elegante com pérolas naturais.</p>
+            <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#colar">Detalhes</button>
+          </div>
+        </div>
+      </div>
+      <!-- Pulseira -->
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="pulseira.webp" class="card-img-top" alt="pulseira dourada">
+          <div class="card-body">
+            <h5 class="card-title">Pulseira Luz Dourada</h5>
+            <p class="card-text">Elegância e conforto em uma peça única.</p>
+            <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#pulseira">Detalhes</button>
+          </div>
+        </div>
+      </div>
+      <!-- Brincos -->
+      <div class="col-md-3 mb-4">
+        <div class="card">
+          <img src="brinco.webp" class="card-img-top" alt="brincos dourados">
+          <div class="card-body">
+            <h5 class="card-title">Brincos Estrela Dourada</h5>
+            <p class="card-text">Conjunto folheado a ouro com zircônias.</p>
+            <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#brincos">Detalhes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modais de produtos -->
+   <!--ANEL-->
+  <div class="modal fade" id="anel"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5>Anel Diamante Real</h5>
+  </div>
+  <div class="modal-body">Feito com ouro 18k e diamantes lapidados manualmente.
+    <p></p>R$ 37.350,00
+    <p></p>
+    10x sem juros de R$ 3.735,00</div></div></div></div>
+  <!--COLAR-->
+  <div class="modal fade" id="colar"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5>Colar Pérola do Mar</h5></div>
+  <div class="modal-body">Coleção limitada com pérolas selecionadas.
+    <P></P>R$ 1450,00
+    <P></P>
+    ou 5x de R$ 290,00 Sem juros
+  </div></div></div></div>
+  <!--PULSEIRA-->
+  <div class="modal fade" id="pulseira"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5>Pulseira Luz Dourada</h5></div>
+  <div class="modal-body">Peça feita à mão com banho de ouro italiano.
+    <P></P>R$ 1300,00
+    <P></P>
+    ou 4x de R$ 325,00 Sem juros
+  </div></div></div></div>
+  <!--BRINCO-->
+  <div class="modal fade" id="brincos"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5>Brincos Estrela Dourada</h5></div>
+  <div class="modal-body">Ideal para eventos noturnos e ocasiões especiais.
+    <P></P>R$ 1200,00
+    <P></P>
+    ou 5x de R$ 240,00 Sem juros
+  </div></div></div></div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Brilho Eterno Joias | Todos os direitos reservados</p>
+    <p><i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i> <i class="bi bi-whatsapp"></i></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
